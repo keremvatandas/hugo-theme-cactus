@@ -10,7 +10,7 @@ Some works are still in progress. See [TODOS](#todos) below.
 
 1. clone cactus to your hugo site's `themes` folder.
 ```
-git clone https://github.com/monkeyWzr/hugo-theme-cactus.git themes/cactus
+git clone https://github.com/keremvatandas/hugo-theme-cactus.git themes/cactus
 ```
 
 2. change your theme to cactus in your site config
@@ -112,7 +112,7 @@ weight = 4
 ```
 
 * show tagsoverview (default) or not
-* 
+*
 ```toml
 [params]
   tagsOverview = true
@@ -274,7 +274,7 @@ mathjax: true # or false
 
 The site config will be ignored when `mathjax` option exists in front matter.
 
-### Archive 
+### Archive
 Pagination on posts archive can be disabled to show all posts in chronological order
 
 ```toml
@@ -292,7 +292,7 @@ Pagination on posts archive can be disabled to show all posts in chronological o
 - [ ] toc template
 - [ ] Customizable copyright year
 - [ ] gallery
-- [ ] expose [mathjax configuration](https://docs.mathjax.org/en/latest/web/configuration.html#web-configuration) 
+- [ ] expose [mathjax configuration](https://docs.mathjax.org/en/latest/web/configuration.html#web-configuration)
 
 ## License
 
